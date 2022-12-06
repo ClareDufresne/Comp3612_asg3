@@ -1,8 +1,8 @@
-const path = require("path");
 const fs = require("fs");
-const jsonPathPaintings = pathjoin(__dirname, "data", "paintings-nested.json");
-const jsonPathGalleries = pathjoin(__dirname, "data", "galleries.json");
-const jsonPathArtists = pathjoin(__dirname, "data", "artists.json");
+const path = require("path");
+const jsonPathPaintings = path.join(__dirname, "data", "paintings-nested.json");
+const jsonPathGalleries = path.join(__dirname, "data", "galleries.json");
+const jsonPathArtists = path.join(__dirname, "data", "artists.json");
 
 let paintings;
 let artists;

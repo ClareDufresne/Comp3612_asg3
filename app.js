@@ -1,4 +1,4 @@
-const provider = require("provider");   //retrieves data about paintings, galleries and artists
+const provider = require("./provider");   //retrieves data about paintings, galleries and artists
 const express = require("express");
 const app = express();
 
