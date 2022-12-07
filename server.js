@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const path = require("path");
+
 const jsonPathPaintings = path.join(__dirname, "data", "paintings-nested.json");
 const jsonPathGalleries = path.join(__dirname, "data", "galleries.json");
 const jsonPathArtists = path.join(__dirname, "data", "artists.json");
